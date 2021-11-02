@@ -40,7 +40,7 @@ class ItemDetailFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentItemDetailBinding.inflate(inflater, container, false)
         return binding.root
     }

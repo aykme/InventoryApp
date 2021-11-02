@@ -42,7 +42,7 @@ class AddItemFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentAddItemBinding.inflate(inflater, container, false)
         return binding.root
     }
